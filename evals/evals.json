@@ -4,20 +4,46 @@
     {
       "id": 1,
       "prompt": "我们在做一个AI面试教练产品，用户可以上传JD，AI模拟面试官帮他练习。但我知道之前有很多AI面试产品都失败了，比如某些大厂也试过类似功能然后下掉了。帮我分析这个方向有没有机会，我们和那些失败产品的核心差距是什么？",
-      "expected_output": "完整的NOVA框架分析，包括产品本质重新定义、失败案例归因、用户需求验证、护城河体系、政策风险评估",
-      "files": []
+      "should_trigger": true,
+      "expectations": [
+        "完整的NOVA框架分析，包括产品本质重新定义、失败案例归因、用户需求验证、护城河体系、政策风险评估"
+      ]
     },
     {
       "id": 2,
       "prompt": "我想做一个帮小红书博主自动生成爆款标题和文案的AI工具。现在市面上有很多AI写作工具都在做类似的事，感觉是红海了。用快速验证模式帮我分析一下，这个方向还有没有机会？",
-      "expected_output": "快速验证模式输出：产品本质声明、失败案例区分、政策风险等级、核心护城河",
-      "files": []
+      "should_trigger": true,
+      "expectations": [
+        "快速验证模式输出：产品本质声明、失败案例区分、政策风险等级、核心护城河"
+      ]
     },
     {
       "id": 3,
       "prompt": "我们在做AI虚拟男友/女友产品，主打情感陪伴。Character.AI和国内的某些AI伴侣产品好像都遇到了问题，但我们觉得我们的方向不一样。帮我用NOVA方法论分析，重点要看政策风险。",
-      "expected_output": "重点政策合规分析（红色/橙色风险评级）+ 产品本质重新定义（是否能规避监管）+ 护城河分析",
-      "files": []
+      "should_trigger": true,
+      "expectations": [
+        "重点政策合规分析（红色/橙色风险评级）+ 产品本质重新定义（是否能规避监管）+ 护城河分析"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "帮我写一个Python爬虫，抓取电商网站的价格数据",
+      "should_trigger": false,
+      "expectations": []
+    },
+    {
+      "id": 5,
+      "prompt": "我的代码报错了：TypeError: cannot unpack non-sequence int，怎么修复？",
+      "should_trigger": false,
+      "expectations": []
+    },
+    {
+      "id": 6,
+      "prompt": "帮我分析这个AI陪伴产品的商业模式，它有没有护城河？",
+      "should_trigger": true,
+      "expectations": [
+        "使用NOVA框架分析护城河（7 Powers）、商业化路径、政策风险评估"
+      ]
     }
   ]
 }
