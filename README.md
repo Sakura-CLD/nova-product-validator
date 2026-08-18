@@ -16,7 +16,7 @@ NOVA Framework 是一套面向创新产品的 7 节点机会验证方法论，�
 在 Claude Code 中直接调用：
 
 ```
-/Product Feasibility Analysis
+/product-feasibility-analysis
 ```
 
 或描述你的产品方向，包含以下关键词之一即可自动触发：
