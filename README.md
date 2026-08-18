@@ -1,10 +1,10 @@
-# NOVA Framework — 创新产品机会验证方法论
+# product-feasibility-analysis — 创新产品机会验证方法论
 
-> 一个 Claude Code Skill，帮你系统性地回答：**「这个创新产品为什么不会重蹈前人覆辙？」**
+> 一个 product-feasibility-analysis Skill，帮你系统性地回答：**「这个创新产品为什么不会重蹈前人覆辙？」**
 
 ## 简介
 
-NOVA Framework 是一套面向创新产品的 7 节点机会验证方法论，适用于：
+product-feasibility-analysis是一套面向创新产品的 7 节点机会验证方法论，适用于：
 
 - 产品立项前的可行性论证
 - 竞品与失败案例的精确归因
