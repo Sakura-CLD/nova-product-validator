@@ -7,16 +7,16 @@
 NOVA Framework 是一套面向创新产品的 7 节点机会验证方法论，适用于：
 
 - 产品立项前的可行性论证
-- 面试 / 融资 BP 的核心论点构建
 - 竞品与失败案例的精确归因
 - 蓝海/红海判断 + 护城河体系设计
+- 项目方向可行性论证
 
 ## 快速使用
 
 在 Claude Code 中直接调用：
 
 ```
-/nova-product-validator
+/Product Feasibility Analysis
 ```
 
 或描述你的产品方向，包含以下关键词之一即可自动触发：
@@ -65,7 +65,7 @@ Node 6：商业化可行性      → 商业模式 + LTV/CAC + 业务加成
 ## 仓库结构
 
 ```
-nova-product-validator/
+Product Feasibility Analysis/
 ├── SKILL.md              # Skill 主入口（Claude Code 读取）
 ├── README.md             # 本文件
 ├── agents/
